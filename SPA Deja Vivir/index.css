@@ -1,0 +1,148 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    border-radius:20%;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+  nav a:hover{
+   background-color: white;
+   color: black;
+   border-radius: 12px;
+    align-items: center;
+    
+}
+
+.wrp{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.portada{
+    width: 100%;
+    height: 100%;
+    background: url(portada3.jpg);
+    background-attachment: fixed;
+    padding-right:90px; 
+}
+
+.contenido{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(red, green, blue, alpha);
+}
+
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+}
+
+.contenido .info h1 {
+  color:black;
+    font-size: 300%;
+    text-shadow: 0px 1px 1px; 
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.contenido .info a :hover{
+    background-color: white;
+    color: black;
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo-box {
+    background-color: black;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s;
+    flex: 1 1 calc(33.333% - 40px);
+}
+
+.photo-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-box p {
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+.photo-box:hover {
+    transform: scale(1.05);
+}
+
+h2{
+    padding-left: 55px;
+    color: #ddd;
+}
+
+
+
+
